@@ -119,6 +119,11 @@ async function logout(page: Page){
 
 async function login(playerId: string, page: Page) {
   const input = await page.$('input[placeholder="Player ID"]');
+  if (!input) {
+    return console.log('Input field not found.');
+  }
+  await input.click({ clickCount: 3 });
+  await input.press('Backspace');
   await input.type(playerId);
   
   const loginButton = await page.$('div.login_btn');
