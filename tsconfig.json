@@ -11,7 +11,7 @@
     "moduleResolution": "Node",
     "noEmitOnError": true,
     "noImplicitAny": false,
-    "outDir": "../dist/",
+    "outDir": "./dist/",
     "paths": {},
     "preserveConstEnums": true,
     "removeComments": false,

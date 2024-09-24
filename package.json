@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Small web automation projects for fun and experiments",
   "scripts": {
-    "start": "ts-node ./src/index",
+    "start": "node ./dist/index",
+    "dev": "ts-node ./src/index",
     "build": "tsc",
     "test": "jest"
   },
