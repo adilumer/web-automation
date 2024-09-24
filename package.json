@@ -1,0 +1,26 @@
+{
+  "name": "web-automation-experiments",
+  "version": "1.0.0",
+  "description": "Small web automation projects for fun and experiments",
+  "scripts": {
+    "start": "ts-node ./src/index",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "web-automation",
+    "typescript",
+    "experiments"
+  ],
+  "author": "Adil Umer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "ts-node": "^10.9.2",
+    "@types/puppeteer": "^5.4.7",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "puppeteer": "^23.4.0"
+  }
+}
